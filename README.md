@@ -3,14 +3,14 @@
 
 
 **一、结点的构造**
-struct TreeNode {
-    char name;
-    double weight;
-    TreeNode* left;
-    TreeNode* right;
-    TreeNode(char chara, double cweight) :name(chara), weight(cweight), left(NULL), right(NULL) {}
-    TreeNode() :name('0'), weight(0.0), left(NULL), right(NULL) {}
-};
+struct TreeNode {  
+    char name;  
+    double weight;  
+    TreeNode* left;  
+    TreeNode* right;  
+    TreeNode(char chara, double cweight) :name(chara), weight(cweight), left(NULL), right(NULL) {}  
+    TreeNode() :name('0'), weight(0.0), left(NULL), right(NULL) {}  
+};  
 分别是字符名称，权重，左右孩子结点，以及两个构造函数
 
 **二、函数解释**  
